@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\contactmanager",
+    "\\src\\app\\contactmanager\\components",
+    "\\src\\app\\contactmanager\\components\\main-content",
+    "\\src\\app\\contactmanager\\components\\sidenav",
+    "\\src\\app\\contactmanager\\services",
+    "\\src\\app\\new-mod",
+    "\\src\\environments"
+  ],
+  "SelectedNode": "\\src\\app\\contactmanager\\components\\main-content\\main-content.component.ts",
+  "PreviewInSolutionExplorer": false
+}

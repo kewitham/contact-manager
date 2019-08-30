@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -89,10 +89,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
+        },
+        "defaults": {
+          "styleExt" : "scss",
+          "component" : {}
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
