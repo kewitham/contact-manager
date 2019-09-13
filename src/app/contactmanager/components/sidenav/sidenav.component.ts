@@ -22,7 +22,7 @@ export class SidenavComponent implements OnInit {
     this.mediaMatcher.addListener(mql => zone.run(() => this.mediaMatcher = matchMedia(`(max-width:${SMALL_WIDTH_BREAKPOINT}px)`)));
   }
 
-  @ViewChild(MatSidenav) sidenav: MatSidenav;
+  @ViewChild(MatSidenav, { static: false }) sidenav: MatSidenav;
 
   ngOnInit() {
     this.users = this.userService.users;
